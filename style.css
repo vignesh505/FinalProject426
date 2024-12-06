@@ -1,0 +1,205 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header button {
+  background-color: #61d4df;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+header button:hover {
+  background-color: #66cae8;
+  transform: scale(1.05);
+}
+
+/* Main Container Styling */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h2, h3 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.button-container .button {
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button-container .button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form input, form select {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Find Medication Button */
+#find-medication {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#find-medication:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Medication and Category List Styling */
+#medication-list, #category-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#medication-list li, #category-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Action Buttons in List Items */
+#medication-list button, #category-list button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#medication-list .btn-edit, #category-list .btn-edit {
+  background-color: #28a745;
+  color: white;
+}
+
+#medication-list .btn-edit:hover, #category-list .btn-edit:hover {
+  background-color: #218838;
+}
+
+#medication-list .btn-delete, #category-list .btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+#medication-list .btn-delete:hover, #category-list .btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* Login and Register Button Styling */
+#action-buttons a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#action-buttons a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
